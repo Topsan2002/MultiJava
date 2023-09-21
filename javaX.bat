@@ -1,8 +1,12 @@
 @echo off
+
+
+@REM chagne you path java 8
 if %1 == "Java 8" set JAVA_HOME=C:\Program Files\Java\jdk-1.8
 
 
 if "%~2" == "perm" (
+
   setx JAVA_HOME "%JAVA_HOME%" /M
 )
 

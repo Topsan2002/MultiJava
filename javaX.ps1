@@ -1,6 +1,7 @@
 param ($javaVersion, $perm)
 
 switch ($javaVersion) {
+  # chagne you path java 8
 	"Java 8" { $env:JAVA_HOME = "C:\Program Files\Java\jdk-1.8" }
 }
 
